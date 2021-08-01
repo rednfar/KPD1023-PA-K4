@@ -8,17 +8,14 @@
         overflow: hidden;
         width: 100%;
       }
-
       .header_logo {
         padding: ;
       }
-
       .header_logo img {
         padding: 90px;
         width: 90px;
         float: left;
       }
-
       .header_greeting {
         float: left;
         text-align: center;
@@ -26,13 +23,11 @@
         font-size: 10mm;
         font-weight: bold;
       }
-
-      .lsocial-icon {
+      .social-icon {
         padding-top: 90px;
         padding-right: 20px;
       }
-
-      .lsocial-icon img {
+      .social-icon img {
         width: 20px;
         padding: 5px;
         border-radius: 50%;
@@ -40,40 +35,33 @@
         margin-top: 50px;
         padding-bottom: 50px;
       }
-
       .menu {
         margin: auto;
         width: 100%;
         background-color: black;
       }
-
       ul {
         overflow: hidden;
         list-style-type: none;
       }
-
       a {
         text-decoration: none;
         display: block;
         color: white;
       }
-
       li {
         float: left;
         padding: 15px;
         text-align: center;
       }
-
       li:hover {
         background-color: antiquewhite;
         font-weight: bold;
       }
-
       a:hover {
         color: black;
         font-weight: bold;
       }
-
       .text {
         float: right;
         margin: 5px;
@@ -81,18 +69,28 @@
         height: 30px;
         text-align: center;
       }
-
-      .hantar {
+      .submit {
         float: right;
         margin: 5px;
         border-radius: 5px;
         height: 30px;
       }
-
-      .hantar:hover {
+      .submit:hover {
         background: lightcoral;
       }
-
+      .content {
+        background-color: grey;
+      }
+      .footer {
+        text-align: center;
+        padding: 5px;
+        background-color: black;
+        color: white;
+      }
+      *{
+        box-sizing: border-box;
+        margin: 0;
+      }
     </style>
   </head>
 
@@ -104,7 +102,7 @@
       <div class="header_greeting">
         BERITA HARIAN
       </div>
-      <div class="logo_media_sosial">
+      <div class="social-icon">
         <img src="images/youtube.png">
         <img src="images/instagram.jpg">
         <img src="images/twitter.png">
@@ -126,9 +124,61 @@
     </div>
 
     <!--Content-->
-
+    <div class="content">
+      <marquee direction="up">
+        <table border="2">
+            <tr>
+               <th>Bil</th>
+               <th>Negara</th>
+               <th>Emas</th>
+               <th>Perak</th>
+               <th>Gangsa</th>
+               <th>Jumlah</th>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>China</td>
+               <td>27</td>
+               <td>45</td>
+               <td>16</td>
+               <td>88</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>Japan</td>
+               <td>22</td>
+               <td>12</td>
+               <td>19</td>
+               <td>53</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>America</td>
+               <td>20</td>
+               <td>56</td>
+               <td>2</td>
+               <td>78</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>ROC</td>
+               <td>15</td>
+               <td>24</td>
+               <td>32</td>
+               <td>61</td>
+            </tr>
+        </table>
+      </marquee>
+      <marquee direction="left">
+        <img src=images/football.png>
+        <img src=images/rugby.png>
+        <img src=images/netball.png>
+        <img src=images/swimming.png>
+      </marquee>
     <!--Footer-->
-
+    <div class="footer">
+      <font>Copyright &copy; Berita Harian, 2021</font>
+    </div>
   </body>
 
 </html>
